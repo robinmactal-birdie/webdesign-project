@@ -1,0 +1,82 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0px;
+    font-size: 14px;
+    -webkit-text-stroke: rgb(0, 0, 0) 0.2px;
+}
+
+header {
+    border: 3px solid #ffb3c1; 
+    border-radius: 6px;
+    color: #ffffff; 
+    font-style: bold;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #ffe5ec; 
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgb(179, 179, 179); 
+}
+
+header div.banner {
+    background-image: url("images/catlogo.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: right 80%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 0px;
+}
+
+header div.banner h1 {
+    position: absolute;
+    top: 20%;
+    text-shadow: 1px 1px 4px #b3b3b3; 
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffc2d1;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    display: block;
+    color: #ffffff; 
+    text-align: center;
+    padding: 4px 8px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 4px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ff8fa3;
+    box-shadow: 3px 3px 5px #b3b3b3;
+}
+
+main img {
+    height: 300px;
+}
+
+main {
+    border: 1px solid #cccccc; 
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 15px #ffb3c1; 
+}
